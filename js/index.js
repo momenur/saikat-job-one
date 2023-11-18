@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var sections = document.querySelectorAll(".content section");
-    var sidebarLinks = document.querySelectorAll(".sideBar a");
+    let sections = document.querySelectorAll(".content section");
+    let sidebarLinks = document.querySelectorAll(".sideBar a");
 
     window.addEventListener("scroll", function () {
-        var currentSection = "";
+        let currentSection = "";
 
         sections.forEach(function (section) {
-            var sectionTop = section.offsetTop -20; // Adjust this value as needed
+            let sectionTop = section.offsetTop -20; // Adjust this value as needed
 
             if (pageYOffset >= sectionTop) {
                 currentSection = section.id;

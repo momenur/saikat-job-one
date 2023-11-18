@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.mainSection{
+    width: 90%;
+    margin: auto;
+}
 
 .sideBar {
     margin: 0;
