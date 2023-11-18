@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let currentSection = "";
 
         sections.forEach(function (section) {
-            let sectionTop = section.offsetTop -20; // Adjust this value as needed
+            let sectionTop = section.offsetTop - 20; // Adjust this value as needed
 
             if (pageYOffset >= sectionTop) {
                 currentSection = section.id;
@@ -20,4 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+});
+
+
+// Slider
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
 });

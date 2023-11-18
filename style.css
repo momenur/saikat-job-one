@@ -2,9 +2,30 @@
     padding: 0;
     margin: 0;
 }
-.mainSection{
+
+.mainSection {
     width: 90%;
     margin: auto;
+    margin-top: 50px;
+}
+
+/* Introduction Section Style */
+.introduction {
+    display: grid;
+    gap: 30px;
+}
+
+.introHeading {
+    font-size: 30px;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    border: 2px solid red;
+}
+
+.rightSide {
+    border: 2px solid green;
+    grid-column: 3;
+    grid-row: 1 / span 2;
 }
 
 .sideBar {
@@ -29,6 +50,7 @@
     background-color: #555;
     color: white;
 }
+
 .active {
     background-color: #04AA6D;
     color: white;
@@ -40,10 +62,41 @@
     padding: 1px 24px;
     height: 1000px;
 }
-.sectionHeading{
+
+.sectionHeading {
     font-size: 35px;
     margin-top: 50px;
     margin-bottom: 20px;
     color: #04AA6D;
 }
 
+
+
+/* MY TOP PICKS */
+.topPicks{
+    position: relative;
+    height: 500px;  
+}
+.swiper {
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: #e4d4d4;
+  }
+
+  .swiper-slide {
+    width: 40%;
+  }
+
+  .swiper-slide:nth-child(n) {
+    width: 40%;
+  }
+
+ .swiper-slide img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
