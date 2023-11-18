@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-/* .mainSection {
-    background: white;
-    display: flex;
-} */
-
 .sideBar {
     margin: 0;
     padding: 0;
@@ -30,17 +25,21 @@
     background-color: #555;
     color: white;
 }
-
-
-/*  */
-
-.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-}
-
 .active {
     background-color: #04AA6D;
     color: white;
 }
+
+
+.content {
+    margin-left: 200px;
+    padding: 1px 24px;
+    height: 1000px;
+}
+.sectionHeading{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #04AA6D;
+}
+
